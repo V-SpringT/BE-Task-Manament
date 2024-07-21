@@ -1,0 +1,30 @@
+{
+  "name": "task-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V-SpringT/BE-Task-Manament.git"
+  },
+  "author": "SpringT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/V-SpringT/BE-Task-Manament/issues"
+  },
+  "homepage": "https://github.com/V-SpringT/BE-Task-Manament#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.11",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
